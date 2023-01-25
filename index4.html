@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../4-ая работа/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <div class="start">
+                <a class="start__link" href="#">Продукты</a>
+                <a class="start__link" href="#">Бренды</a>
+                <a class="start__link" href="#">Доставки</a>
+                <a class="start__link" href="#">О нас</a>
+            </div>
+            <div class="icon">
+                <div class="btn">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img class="img" src="./big_wb_2110.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img class="img" src="./big_wb_woman.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img class="img" src="./big_wb_kids.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+    <div id="slider" style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+
+    <h2 class="hit" >Хиты Продаж</h2>
+    <div class="section">
+        <div class="section__link1">
+            <img src="./IMAGE (1).png" alt="marbook">
+            <div class="text1">
+                <p class="tittle1">MacBook Pro 13</p>
+                <p style="color: grey;">Lorem ipsum dolor sit amet consectetur adipisicing<br> elit. Quibusdam, quasi.</p>
+                <p class="tittle1">$ 1200.00 USD</p>
+            </div>
+        </div>
+        <div class="section__link2">
+            <img src="./IMAGE (2).png" alt="clock">
+            <div class="text2">
+                <p class="tittle2">Smart Galaxy Watch </p>
+                <p style="color: grey;">Lorem ipsum dolor  elit.<br> A necessitatibus repellenduae non quia<br> ut beatae adipisci.</p>
+                <p class="tittle2">$ 2000.00 USD</p>
+            </div>
+        </div>
+        <div class="section__link3">
+            <img src="./IMAGE (3).png" alt="">
+            <div class="text3">
+                <p class="tittle3">MacBook Air M1</p>
+                <p style="color: grey;">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Rerum illo, aspernatur nostrum sit vitae architecto.</p>
+                <p>$ 999.00 USD</p>
+            </div>
+        </div>
+        <div class="section__link4">
+            <img src="./IMAGE (4).png" alt="">
+            <div class="text4">
+                <p class="tittle4">iPad</p>
+                <p style="color: grey;">Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Veritatis in .</p>
+                <p>$ 500.00 USD</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="more">
+        <a class="but" href="#">Показать еще</a>
+    </div>
+
+    <div class="search">Что то ищете?
+        <form action="#">
+            <input class="search__link" type="text" name="E-mail" placeholder="Искать">
+        </form>
+</div>
+
+    <div class="block1">
+        <div>
+            <a href="#"><img class="block1__link1" src="./gor_coat.jpg" alt=""></a>
+        </div>
+        <div>
+            <a href="#"><img class="block1__link2" src="./gor_jeans.jpg" alt=""></a>
+        </div>
+    </div>
+
+    <div class="block2">
+        <div>
+            <a href="#"><img class="block2__link1" src="./main_poloska_shapka.jpg" alt=""></a>
+        </div>
+        <div>
+            <a href="#"><img class="block2__link2" src="./main_poloska_kids_shoes.jpg" alt=""></a>
+        </div>
+    </div>
+    <div class="info">
+        <div class="info__item"><p id="info__link">Доставка</p> 
+            <div class="info__tittle">
+                В Бишкеке и 60 других крупных городах вы<br>
+                получите свой заказ уже на следующий день! <br>
+                Более подробную информацию об условиях<br> доставки в ваш город можно найти здесь.
+            </div>
+        </div>
+        <div class="info__item"><p id="info__link">Примерка перед покупкой</p>
+            <div class="info__tittle">Интернет-магазин Lamoda даёт возможность<br>
+                примерить одежду, обувь и другие товары перед<br>
+                оплатой заказа курьеру. Оплачивайте только то,<br> что вам подошло и понравилось!
+            </div>
+        </div>
+        <div class="info__item"><p id="info__link">Удобные способы оплаты</p>
+            <div class="info__tittle">
+                Вы можете оплатить покупки не только<br>
+                наличными, но и банковской картой. У всех <br>
+                курьеров Lamoda Express при себе есть<br> терминал для оплаты картами.
+            </div>
+        </div>
+    </div>
+    <hr id="line">
+    <div class="brend">
+        <div class="brend__item1"></div>
+        <div class="brend__item2"></div>
+        <div class="brend__item3"></div>
+        <div class="brend__item4"></div>
+        <div class="brend__item5"></div>
+        <div class="brend__item6"></div>
+        <div class="brend__item7"></div>
+        <div class="brend__item8"></div>
+    </div>
+
+    <div class="block3">
+        <div>
+            <a href="#"><img class="block3__link3" src="./gor_1111_kids.jpg" alt=""></a>
+        </div>
+        <div>
+            <a href="#"><img class="block3__link3" src="./gor_1111_wom.jpg" alt=""></a>
+        </div>
+    </div>
+    <div class="skidka">
+        <div class="skidka__item">Скидка 10%
+            <div class="skidka__tittle">
+                <p>ДОПОЛНИТЕЛЬНО</p>
+                <p id="skidka">За подписку на наши новости.</p>
+            </div>
+        </div>
+        <form id="regForm" action="">
+            
+            <!-- One "tab" for each step in the form: -->
+            <div class="tab">Имя:
+                <p><input placeholder="Имя..." oninput="this.className = ''"></p>
+                <p><input placeholder="Фамилия..." oninput="this.className = ''"></p>
+            </div>
+            
+            <div class="tab">Контакты:
+                <p><input placeholder="E-mail..." oninput="this.className = ''"></p>
+                <p><input placeholder="телефон..." oninput="this.className = ''"></p>
+            </div>
+            
+            <div class="tab">Деньрождение:
+                <p><input placeholder="день" oninput="this.className = ''"></p>
+                <p><input placeholder="месяц" oninput="this.className = ''"></p>
+                <p><input placeholder="год" oninput="this.className = ''"></p>
+            </div>
+            
+            <div class="tab">Логин:
+                <p><input placeholder="Username..." oninput="this.className = ''"></p>
+                <p><input placeholder="Password..." oninput="this.className = ''"></p>
+            </div>
+            <div class="brt">
+                <div style="overflow:auto;">
+                    <div  style="float:right;">
+                        <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                        <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                </div>
+                </div>
+            </div>
+            
+            <!-- Circles which indicates the steps of the form: -->
+            <div style="text-align:center;margin-top:40px;">
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+            </div>
+            </form>
+    </div>
+
+    <div class="footer">
+        <div class="item">
+            <div class="item1">
+                <p class="item__link1">Покупателям</p>
+                <div class="slider">
+                    <div class="slider__link1">
+                        <p href="#">Способы оплаты</p>
+                        <p href="#">Условия доставки</p>
+                        <p href="#">Возврат товара</p>
+                        <p href="#">Правила продажи товаров</p>
+                        <p href="#">Возврат денежных средств</p>
+                        <p>Правила пользования<br>торговой площадкой</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item2">
+                <p class="item__link2">Наши проекты</p>
+                <div class="slider">
+                    <div class="slider__link2">
+                        <p href="#">WB Guru</p>
+                        <p href="#">Трудоустройство</p>
+                        <p href="#">Цифравые товары</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item3">
+                <p class="item__link3">Компания</p>
+                <div class="slider">
+                    <div class="slider__link3">
+                        <p href="#">О нас</p>
+                        <p href="#">Контакты</p>
+                        <p href="#">Вакансии</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item4">
+                <p class="item__link4">Мы в соцсетях</p>
+                <div class="slider">
+                    <div class="slider__link4">
+                        <p href="#">Вконтакте</p>
+                        <p href="#">Одноклассники</p>
+                        <p href="#">YouTube</p>
+                        <p>Телеграм</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item5">
+                <p class="item__link5">Мобильные устройтсва</p>
+                <div class="mob">
+                    <div class="mob__link1"></div>
+                    <div class="mob__link2"></div>
+                    <div class="mob__link3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script  src="https://kit.fontawesome.com/888b256bf3.js" crossorigin="anonymous"></script>
+    <script src="../4-ая работа/script.js"></script>
+</body>
+</html>
